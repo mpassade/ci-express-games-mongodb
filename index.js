@@ -4,13 +4,11 @@ const morgan = require('morgan')
 const gameRouter = require('./routes/gameRoutes.js')
 const mainRouter = require('./routes/mainRoutes.js')
 const authRouter = require('./routes/authRoutes.js')
-const logger = require('./middleware/middleware.js')
 const mongoose = require('mongoose')
 require('dotenv').config()
 
 const port = process.env.PORT || 8000
 
-app.use(logger)
 app.use(morgan('dev'))
 app.use(express.json())
 app.use(express.urlencoded({extended: false}))

@@ -1,5 +1,5 @@
 const logger = (req, res, next) => {
-    console.log(quotes[Math.floor(Math.random()*4)])
+    req.quote = quotes[Math.floor(Math.random()*4)]
     next()
 }
 

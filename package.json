@@ -1,0 +1,29 @@
+{
+  "name": "ci-express-games-mongodb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mpassade/ci-express-games-mongodb.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mpassade/ci-express-games-mongodb/issues"
+  },
+  "homepage": "https://github.com/mpassade/ci-express-games-mongodb#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.18"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.0"
+  }
+}
